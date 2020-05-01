@@ -1,0 +1,159 @@
+
+.header-wrapper {
+  margin: 0;
+  max-width: 220px;
+  display: grid;
+  grid-template-columns: 220px;
+  border-color: #F05F44;
+  border-width: 2px;
+  
+  }
+
+body {
+  background-color: lightyellow;
+  font-family: fantasy;
+}
+
+.section-wrapper {
+  max-width: 980px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.btn {
+  display: flex;
+  max-width: 50%;
+}
+
+.addbutton{
+  max-width: 100%;
+  max-height: 100%;
+  height:25px;
+  width:25px;
+  background-image:url("images/add.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-self: center;
+  position: relative;
+  border-radius:5px;
+  border:1px solid #F05F44;
+  margin: 1px;
+  background: radial-gradient(circle at center, lightyellow 100%); /* This removes the square border behind the image*/
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.clearlist{
+  max-width: 100%;
+  max-height: 100%;
+  height:25px;
+  width:25px;
+  background-image:url("images/clearlist.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-self: center;
+  position: relative;
+  border-radius:5px;
+  border:1px solid #F05F44;
+  margin: 1px;
+  background: radial-gradient(circle at center, lightyellow 100%); /* This removes the square border behind the image*/
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.list-wrapper{
+  border:1px solid #F05F44;
+  border-radius: 5px;
+  border-width: auto;
+}
+
+.ulist{
+  padding: 0px 10px 10px 40px;
+  font-weight: bold;
+  font-size:1rem;
+  display: flex;
+  display: inline-block; 
+  max-width: 90%;
+  flex-flow: column wrap;
+}
+
+input {
+  padding: 2px 0px 0px 2px;
+  margin: 1px;
+  border-radius:5px;
+  height: 25px; 
+  width: 80%;
+  max-width: 100%;
+  max-height: 100%;
+  font-weight: bold;  
+  text-align: left; 
+  font-size: 10px;
+  border:1px solid #F05F44;
+  
+  box-shadow: -webkit-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        -moz-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+}
+
+button{
+/*
+  margin: 5px;
+  margin: 0 auto;
+  border-radius:5px;
+  border:1px solid #F05F44;
+  font-weight: bold;
+  background-color:rgba(252, 153, 20, 0.8);
+  box-shadow: -webkit-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        -moz-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);*/
+
+  background-image:url("images/delete.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  height:20px;
+  width:20px;
+  border-radius:5px;
+  border:1px solid #F05F44;
+  margin: 5px;
+  background: radial-gradient(circle at center, lightyellow 100%); 
+  border-radius: 50%;
+  overflow: hidden;
+  outline:none;  
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
