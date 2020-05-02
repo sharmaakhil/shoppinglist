@@ -79,20 +79,6 @@ function removeAllElements(event){
   	};
   };
 
- /* function removeAllElements(event){
-	var parentOfListItems = document.getElementsByClassName("listitem").parentElement;
-	console.log("parent:",parentOfListItem);
-	
-	var items = document.getElementsByClassName("listitem");
-	console.log("Elements are: ",items);
-	var itemListLength = items.length;
-	console.log("Items size:",itemListLength);
-
-	for(i=0; i < itemListLength; i++){
-		parentOfListItem.removeChild(item[i]);
-	};
-	};*/	
-
 li.forEach(addDeleteButtonToListItems);
 addLiButton.addEventListener("click", addListItemAfterClick);
 input.addEventListener("keypress", addListItemAfterKeypress);
