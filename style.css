@@ -42,7 +42,7 @@ body {
   border-radius:5px;
   border:1px solid #F05F44;
   margin: 1px;
-  background: radial-gradient(circle at center, lightyellow 100%); /* This removes the square border behind the image*/
+  background: radial-gradient(circle at center, lightyellow 100%); 
   border-radius: 50%;
   overflow: hidden;
 }
@@ -62,7 +62,7 @@ body {
   border-radius:5px;
   border:1px solid #F05F44;
   margin: 1px;
-  background: radial-gradient(circle at center, lightyellow 100%); /* This removes the square border behind the image*/
+  background: radial-gradient(circle at center, lightyellow 100%); 
   border-radius: 50%;
   overflow: hidden;
 }
@@ -102,16 +102,6 @@ input {
 }
 
 button{
-/*
-  margin: 5px;
-  margin: 0 auto;
-  border-radius:5px;
-  border:1px solid #F05F44;
-  font-weight: bold;
-  background-color:rgba(252, 153, 20, 0.8);
-  box-shadow: -webkit-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
-        -moz-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
-        box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);*/
 
   background-image:url("images/delete.jpeg");
   background-size: cover;
